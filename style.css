@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(Norse-Bold.otf);
+}
+#space{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    padding: 20px 0px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 90vh;
+}
+
+.form {
+    background-color: white;
+    height: 70vh;
+}
+
+img {
+    width:40vw;
+    height: 70vh;
+}
