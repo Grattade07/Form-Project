@@ -3,19 +3,25 @@
     src: url(Norse-Bold.otf);
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black 
+}
+
 #container {
     display: flex;
     flex-direction: row;
-    width: 90vw;
-    height: 90vh;
 }
 
 .form {
     background-color: white;
-    height: 70vh;
 }
 
-img {
-    width:40vw;
-    height: 70vh;
+.picture {
+    background-image: url(/home/joe/Desktop/TheOdinProject/Form-Project/Images/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 40vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: 100% 100%;
 }
