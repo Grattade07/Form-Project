@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Norse Bold';
-    src: url(Norse-Bold.otf);
+    src: url('Fonts/Norse-Bold.otf') format('oft');
 }
 
 body {
@@ -14,10 +14,6 @@ body {
     flex-direction: row;
 }
 
-.form {
-    background-color: white;
-}
-
 .picture {
     background-image: url(/home/joe/Desktop/TheOdinProject/Form-Project/Images/halie-west-25xggax4bSA-unsplash.jpg);
     width: 40vw;
@@ -25,3 +21,36 @@ body {
     background-position: center center;
     background-size: 100% 100%;
 }
+
+.logo-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40vw;
+    height: 20vh;
+    margin-top: 20vh;
+
+    color: white;
+    font-size: 50px;
+    font-family: 'Norse Bold';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo-img {
+    height: 120px;
+    width: 40%;
+}
+
+.form {
+    background-color: white;
+}
+
