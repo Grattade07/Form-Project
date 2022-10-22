@@ -52,5 +52,26 @@ body {
 
 .form {
     background-color: white;
+    width: 60vw;
 }
 
+#class-header {
+    width: auto;
+    height: 33vh;
+
+    border: 1px solid black;
+}
+
+#form-inputs {
+    width: auto;
+    height: 33vh;
+
+    border: 1px solid black;
+}
+
+#form-footer {
+    width: auto;
+    height: 34vh;
+
+    border: 1px solid black;
+}
