@@ -75,3 +75,13 @@ body {
 
     border: 1px solid black;
 }
+
+#header-text {
+    font-family: 'Norse-Bold';
+    font-weight: 500;
+    font-size: 18px;
+
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 80px;
+}
