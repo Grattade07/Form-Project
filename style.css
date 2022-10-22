@@ -62,11 +62,37 @@ body {
     background-color: rgba(249,250,251,255);
 }
 
+#header-text {
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    font-size: 18px;
+
+    padding-top: 100px;
+    padding-left: 3%;
+    padding-right: 20%;
+}
+
 #form-inputs {
     width: auto;
     height: 33vh;
 
+    padding-left: 3%;
+    padding-right: 20%;
+
     border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 350px;
+    height: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 #form-footer {
@@ -74,14 +100,4 @@ body {
     height: 34vh;
 
     border: 1px solid black;
-}
-
-#header-text {
-    font-family: 'Times New Roman';
-    font-weight: 600;
-    font-size: 18px;
-
-    padding-top: 100px;
-    padding-left: 30px;
-    padding-right: 80px;
 }
