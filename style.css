@@ -6,7 +6,6 @@
 body {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black 
 }
 
 #container {
@@ -137,7 +136,7 @@ input:focus {
     font-weight: 600;
 }
 
-p {
+.footer-text {
     margin-left: 4%;
     margin-top: 40px;
 
