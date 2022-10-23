@@ -111,7 +111,7 @@ input {
 input:focus {
     outline: none !important;
     border-color:rgb(54, 167, 167);
-    box-shadow: 3px 5px rgb(179, 176, 176);
+    box-shadow: 3px 6px rgb(179, 176, 176);
 }
 
 /* form footer */
@@ -120,5 +120,19 @@ input:focus {
     width: auto;
     height: 34vh;
 
+}
 
+#footer-button {
+    margin-top: 40px;
+    margin-left: 4%;
+
+    height: 2.7rem;
+    width: 16rem;
+
+    border-radius: 6px;
+    background-color: #596D48;
+
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
 }
