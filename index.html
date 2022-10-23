@@ -30,7 +30,7 @@
                 <form>
                     <div class="input">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name">
+                        <input type="text" id="first-name" required>
                     </div>
 
                     <div class="input">
@@ -40,31 +40,31 @@
 
                     <div class="input">
                         <label for="email">Email</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" required>
                     </div>
 
                     <div class="input">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone">
+                        <input type="tel" id="phone" required>
                     </div>
 
-                    <div class="input">
+                    <div class="input" id="pwd-input">
                         <label for="pwd">Password</label>
-                        <input type="password" id="pwd">
+                        <input type="password" id="pwd" required>
                     </div>
 
                     <div class="input">
                         <label for="pwd-con">Confirm Password</label>
-                        <input type="password" id="pwd-con">
+                        <input type="password" id="pwd-con" required>
                     </div>
                 </form>
             </div>
             <div id="form-footer">
-                <button id="footer-button">Create Account</button>
+                <button id="footer-button" type="submit">Create Account</button>
                 <p class="footer-text">Already have an account? <a>Log in</a></p>
             </div>
         </div>
-        <script href="script.js"></script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>

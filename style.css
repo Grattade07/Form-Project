@@ -149,3 +149,8 @@ a {
 
     font-weight: 500;
 }
+
+.error {
+    outline: none !important;
+    border-color:rgb(83, 11, 20);
+}

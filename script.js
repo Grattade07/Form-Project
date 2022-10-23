@@ -1,20 +1,22 @@
 function validatePassword() {
-    var password = document.getElementById("pwd").textContent;
-    var confirmPassword = document.getElementById("pwd-con").textContent;
+    var password = document.getElementById("pwd");
+    var confirmPassword = document.getElementById("pwd-con");
+    var passwordInput = document.getElementById("pwd-input");
 
-    console.log(password);
-    console.log(confirmPassword);
-    /* if (password != confirmPassword) {
-        console.log(password)
-        console.log(confirmPassword)
+    if (password.value != confirmPassword.value) {
+        console.log(password.value)
+        console.log(confirmPassword.value)
 
-        const passwordMatch = document.createElement("p")
+        password.classList.add("error")
+        confirmPassword.classList.add("error")
 
-        passwordMatch.value = "* Passwords do not match"
+        var passwordMatch = document.createElement("p")
+
+        passwordMatch.textContent = "* Passwords do not match"
         console.log(passwordMatch)
-        /* passwordMatch.style.color = "Red" */
-        /* password.appendChild(passwordMatch);
-    } */
+        passwordMatch.style.color = "Red"
+        passwordInput.appendChild(passwordMatch);
+    }
 }
 
 var button = document.getElementById("footer-button")
