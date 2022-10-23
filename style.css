@@ -136,3 +136,17 @@ input:focus {
     color: white;
     font-weight: 600;
 }
+
+p {
+    margin-left: 4%;
+    margin-top: 40px;
+
+    font-size: 17px;
+    font-weight: 500;
+}
+
+a {
+    color: #596D48;
+
+    font-weight: 500;
+}
